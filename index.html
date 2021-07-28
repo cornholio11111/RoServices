@@ -41,12 +41,13 @@ body {
   <a href="#Store">Store</a>
   <a href="#Contact">Contact</a>
   <a href="#About">About</a>
-  <div class="search-container">
-    <form action="/action_page.php">
-      <input type="text" placeholder="Search.." name="search">
-      <button type="submit"><i class="fa fa-search"></i></button>
-    </form>
-  </div>
+ <form id="form" role="search">
+  <input type="search" id="query" name="="
+   placeholder="Search..."
+   aria-label="Search through site content">
+  <button>Search</button>
+</form>
+
 </div>
 
 <div style="padding-left:16px">
@@ -55,10 +56,3 @@ body {
 
 </body>
 </html>
-
-<form id="form" role="search">
-  <input type="search" id="query" name="q"
-   placeholder="Search..."
-   aria-label="Search through site content">
-  <button>Search</button>
-</form>
